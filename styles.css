@@ -29,7 +29,7 @@ h1 {
     margin-top: 20px;
     padding: 12px 24px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Green */
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -38,23 +38,24 @@ h1 {
 }
 
 .next-button:hover, .restart-button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Darker green */
 }
 
 .option {
     display: block;
     margin: 10px auto;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
-    background-color: #f0f0f0;
-    border: 1px solid #cccccc;
+    background-color: #3498db; /* Blue */
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #ffffff;
     transition: background-color 0.3s ease;
 }
 
 .option:hover {
-    background-color: #e0e0e0;
+    background-color: #2980b9; /* Darker blue */
 }
 
 .result {
